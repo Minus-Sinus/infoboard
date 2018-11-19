@@ -1,0 +1,10 @@
+Import local database (sqlite) to heroku postgresql
+
+Source: https://cs50.readthedocs.io/heroku/
+
+Infoboard postgresql URI:
+postgres://hcoahudmlqlorv:f50bf8f07c5ee415f85911c12955d1e659a377c409ec9a2b1bae5008681a1786@ec2-54-75-242-47.eu-west-1.compute.amazonaws.com:5432/dad232sods7f39
+
+Run on CS50:
+pgloader ms_infoboard.db postgres://hcoahudmlqlorv:f50bf8f07c5ee415f85911c12955d1e659a377c409ec9a2b1bae5008681a1786@ec2-54-75-242-47.eu-west-1.compute.amazonaws.com:5432/dad232sods7f39?sslmode=require
+https://cs50.readthedocs.io/heroku/
